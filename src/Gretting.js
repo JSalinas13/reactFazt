@@ -1,8 +1,8 @@
-export function Gretting() {
-    function add(x, y) {
-        return x + y;
-    }
+export function Gretting({ title }) {
+    console.log(title)
+    return <h1>{title}</h1>
+}
 
-
-    return <h1>{add(10, 30 )}</h1>
+export function UserCard() {
+    return <h1>Soy un UserCard</h1>
 }
