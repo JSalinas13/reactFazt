@@ -3,8 +3,8 @@ export function Gretting({ title }) {
     return <h1>{title}</h1>
 }
 
-export function UserCard({ name, amount, address, married, greet}) {
-    console.log({ name, amount, address, married,greet});
+export function UserCard({ name, amount, address, married, greet }) {
+    console.log({ name, amount, address, married, greet });
     return (
         <div>
             <h1>{name}</h1>
